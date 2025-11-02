@@ -3,4 +3,3 @@ gunicorn
 whitenoise
 python-dotenv
 dj-database-url
-pip install supabase
