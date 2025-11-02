@@ -28,7 +28,11 @@ SECRET_KEY = os.environ.get("SECRET_KEY", "1212")
 
 DEBUG = os.environ.get("DEBUG", "True") == "True"
 
-ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1").split(",")
+ALLOWED_HOSTS = [ 
+    ".onrender.com"
+]
+
+
 
 
 
