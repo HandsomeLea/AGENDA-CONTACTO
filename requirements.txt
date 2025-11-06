@@ -1,4 +1,3 @@
-AGENDA-CONTACTO
 Django
 gunicorn
 whitenoise
